@@ -1,0 +1,342 @@
+{
+  "edges": [
+    {
+      "data": {
+        "relationship": "治疗",
+        "source": "168",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "治疗",
+        "source": "184",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "203",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "76",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "101",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "171",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "202",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "29",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "辅助检查",
+        "source": "86",
+        "target": "0"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "82",
+        "target": "1"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "0",
+        "target": "1"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "27",
+        "target": "28"
+      }
+    },
+    {
+      "data": {
+        "relationship": "治疗",
+        "source": "27",
+        "target": "82"
+      }
+    },
+    {
+      "data": {
+        "relationship": "治疗",
+        "source": "84",
+        "target": "82"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "82",
+        "target": "83"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "0",
+        "target": "83"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "27",
+        "target": "85"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "82",
+        "target": "167"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "0",
+        "target": "167"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "84",
+        "target": "169"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "184",
+        "target": "170"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "82",
+        "target": "183"
+      }
+    },
+    {
+      "data": {
+        "relationship": "产生",
+        "source": "0",
+        "target": "183"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "84",
+        "target": "185"
+      }
+    },
+    {
+      "data": {
+        "relationship": "引发",
+        "source": "168",
+        "target": "201"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "data": {
+        "id": "0",
+        "label": "疾病",
+        "name": "高血压"
+      }
+    },
+    {
+      "data": {
+        "id": "1",
+        "label": "临床表现",
+        "name": "大小动脉损害"
+      }
+    },
+    {
+      "data": {
+        "id": "27",
+        "label": "药物",
+        "name": "胰高血糖素"
+      }
+    },
+    {
+      "data": {
+        "id": "28",
+        "label": "副作用",
+        "name": "眼花"
+      }
+    },
+    {
+      "data": {
+        "id": "29",
+        "label": "诊断方法",
+        "name": "血糖"
+      }
+    },
+    {
+      "data": {
+        "id": "76",
+        "label": "诊断方法",
+        "name": "肝功能"
+      }
+    },
+    {
+      "data": {
+        "id": "82",
+        "label": "疾病",
+        "name": "糖尿病"
+      }
+    },
+    {
+      "data": {
+        "id": "83",
+        "label": "临床表现",
+        "name": "脑部损害"
+      }
+    },
+    {
+      "data": {
+        "id": "84",
+        "label": "药物",
+        "name": "胰岛素"
+      }
+    },
+    {
+      "data": {
+        "id": "85",
+        "label": "副作用",
+        "name": "头晕"
+      }
+    },
+    {
+      "data": {
+        "id": "86",
+        "label": "诊断方法",
+        "name": "血脂"
+      }
+    },
+    {
+      "data": {
+        "id": "101",
+        "label": "诊断方法",
+        "name": "心电图"
+      }
+    },
+    {
+      "data": {
+        "id": "167",
+        "label": "临床表现",
+        "name": "心脏损害"
+      }
+    },
+    {
+      "data": {
+        "id": "168",
+        "label": "药物",
+        "name": "钙拮抗药"
+      }
+    },
+    {
+      "data": {
+        "id": "169",
+        "label": "副作用",
+        "name": "呕吐"
+      }
+    },
+    {
+      "data": {
+        "id": "170",
+        "label": "副作用",
+        "name": "尿酸升高"
+      }
+    },
+    {
+      "data": {
+        "id": "171",
+        "label": "诊断方法",
+        "name": "超声心动图"
+      }
+    },
+    {
+      "data": {
+        "id": "183",
+        "label": "临床表现",
+        "name": "肾脏损害"
+      }
+    },
+    {
+      "data": {
+        "id": "184",
+        "label": "药物",
+        "name": "利尿药"
+      }
+    },
+    {
+      "data": {
+        "id": "185",
+        "label": "副作用",
+        "name": "恶心"
+      }
+    },
+    {
+      "data": {
+        "id": "201",
+        "label": "副作用",
+        "name": "血钾降低"
+      }
+    },
+    {
+      "data": {
+        "id": "202",
+        "label": "诊断方法",
+        "name": "胆固醇"
+      }
+    },
+    {
+      "data": {
+        "id": "203",
+        "label": "诊断方法",
+        "name": "肾功能"
+      }
+    }
+  ]
+}

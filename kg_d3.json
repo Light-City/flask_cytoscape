@@ -1,0 +1,246 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+             "label": "disease",
+             "name": "糖尿病"
+        },
+         {
+            "id": "1",
+             "label": "clinical_manifestation",
+             "name": "脑部损害"
+        },
+         {
+            "id": "27",
+             "label": "drug",
+             "name": "胰岛素"
+        },
+         {
+            "id": "28",
+             "label": "side_effect",
+             "name": "头晕"
+        },
+         {
+            "id": "29",
+             "label": "diagnostic_method",
+             "name": "血脂"
+        },
+         {
+            "id": "76",
+             "label": "disease",
+             "name": "高血压"
+        },
+         {
+            "id": "82",
+             "label": "clinical_manifestation",
+             "name": "大小动脉损害"
+        },
+         {
+            "id": "83",
+             "label": "drug",
+             "name": "胰高血糖素"
+        },
+         {
+            "id": "84",
+             "label": "side_effect",
+             "name": "眼花"
+        },
+         {
+            "id": "85",
+             "label": "diagnostic_method",
+             "name": "血糖"
+        },
+         {
+            "id": "86",
+             "label": "diagnostic_method",
+             "name": "肝功能"
+        },
+         {
+            "id": "101",
+             "label": "clinical_manifestation",
+             "name": "肾脏损害"
+        },
+         {
+            "id": "102",
+             "label": "side_effect",
+             "name": "血钾降低"
+        },
+         {
+            "id": "103",
+             "label": "diagnostic_method",
+             "name": "胆固醇"
+        },
+         {
+            "id": "104",
+             "label": "diagnostic_method",
+             "name": "肾功能"
+        },
+         {
+            "id": "121",
+             "label": "clinical_manifestation",
+             "name": "心脏损害"
+        },
+         {
+            "id": "122",
+             "label": "drug",
+             "name": "钙拮抗药"
+        },
+         {
+            "id": "123",
+             "label": "side_effect",
+             "name": "呕吐"
+        },
+         {
+            "id": "124",
+             "label": "side_effect",
+             "name": "尿酸升高"
+        },
+         {
+            "id": "125",
+             "label": "diagnostic_method",
+             "name": "超声心动图"
+        },
+         {
+            "id": "141",
+             "label": "drug",
+             "name": "利尿药"
+        },
+         {
+            "id": "142",
+             "label": "side_effect",
+             "name": "恶心"
+        },
+         {
+            "id": "143",
+             "label": "diagnostic_method",
+             "name": "心电图"
+        }
+    ],
+     "edges": [
+        {
+            "source": "83",
+             "target": "0",
+             "relationship": "治疗"
+        },
+         {
+            "source": "27",
+             "target": "0",
+             "relationship": "治疗"
+        },
+         {
+            "source": "0",
+             "target": "1",
+             "relationship": "产生"
+        },
+         {
+            "source": "76",
+             "target": "1",
+             "relationship": "产生"
+        },
+         {
+            "source": "83",
+             "target": "28",
+             "relationship": "引发"
+        },
+         {
+            "source": "122",
+             "target": "76",
+             "relationship": "治疗"
+        },
+         {
+            "source": "141",
+             "target": "76",
+             "relationship": "治疗"
+        },
+         {
+            "source": "104",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "86",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "143",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "125",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "103",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "85",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "29",
+             "target": "76",
+             "relationship": "辅助检查"
+        },
+         {
+            "source": "0",
+             "target": "82",
+             "relationship": "产生"
+        },
+         {
+            "source": "76",
+             "target": "82",
+             "relationship": "产生"
+        },
+         {
+            "source": "83",
+             "target": "84",
+             "relationship": "引发"
+        },
+         {
+            "source": "0",
+             "target": "101",
+             "relationship": "产生"
+        },
+         {
+            "source": "76",
+             "target": "101",
+             "relationship": "产生"
+        },
+         {
+            "source": "122",
+             "target": "102",
+             "relationship": "引发"
+        },
+         {
+            "source": "0",
+             "target": "121",
+             "relationship": "产生"
+        },
+         {
+            "source": "76",
+             "target": "121",
+             "relationship": "产生"
+        },
+         {
+            "source": "27",
+             "target": "123",
+             "relationship": "引发"
+        },
+         {
+            "source": "141",
+             "target": "124",
+             "relationship": "引发"
+        },
+         {
+            "source": "27",
+             "target": "142",
+             "relationship": "引发"
+        }
+    ]
+}

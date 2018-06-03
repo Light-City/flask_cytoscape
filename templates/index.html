@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KGFHBP</title>
+    <style type="text/css">
+        /* cytoscape graph */
+        #cy {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/cytoscape/2.3.16/cytoscape.min.js"></script>
+    <script>
+        $.get('/kg/graph/json', function(result){
+            var style = [
+                {selector: 'node[label = "临床表现"]', css: {'background-color': '#6FB1FC','content': 'data(name)'}},
+                {selector: 'node[label = "药物"]', css: {'background-color': '#F5A45D','content': 'data(name)'}},
+                {selector: 'node[label = "诊断方法"]', css: {'background-color': '#bd78f5','content': 'data(name)'}},
+                {selector: 'node[label = "副作用"]', css: {'background-color': '#c0f54a','content': 'data(name)'}},
+                {selector: 'node[label = "疾病"]', css: {'background-color': '#f5739c','content': 'data(name)'}},
+                { selector: 'edge', css: {'content': 'data(relationship)', 'target-arrow-shape': 'triangle'}}
+            ];
+            cytoscape({
+              container: document.getElementById('cy'),
+              style: style,
+              elements: result.elements,
+              layout: { name: 'grid'}
+            });
+        }, 'json');
+    </script>
+</head>
+<body>
+    <div id="cy"></div>
+
+</body>
+</html>
